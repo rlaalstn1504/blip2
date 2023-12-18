@@ -1,0 +1,9 @@
+# 싱글 GPU 학습
+nohup python3 train.py >  Single_GPU_train_log.txt
+# 싱글 GPU 추론
+nohup python3 test.py > Single_GPU_test_log.txt
+
+# 멀티 GPU 학습
+nohup accelerate launch --config_file multi_gpu_config.yaml train_multi.py > Multi_GPU_train_log.txt
+# 멀티 GPU 추론
+nohup accelerate launch --config_file multi_gpu_config.yaml test_multi.py > Multi_GPU_test_log.txt

@@ -1,0 +1,16 @@
+accelerate>=0.2
+matplotlib
+nltk>=3
+numpy>=1.2
+openpyxl==3.1.2
+packaging==23.1
+pandas==2.0.3
+parmap==1.7.0
+Pillow==10.0.0
+salesforce-lavis==1.0.2
+timm==0.9.7
+torch==2.0.1
+torchvision==0.15.2+cu118
+tqdm==4.66.1
+transformers==4.28.0
+

@@ -1,0 +1,13 @@
+pretrain_model/
+output/ 
+__pycache__/
+.vscode/
+*.pkl
+*.jpg
+*.JPG
+*.PNG
+*.pth 
+*.pt
+*.zip
+*.txt
+!requirements.txt
